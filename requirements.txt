@@ -1,0 +1,9 @@
+# Local packages for scripts/eval.py, scripts/search.py, and the training code.
+# Do not reinstall TensorFlow inside a notebook image that already provides it.
+tensorflow>=2.16,<2.21
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.3
+scipy>=1.11
+matplotlib>=3.8
+pillow>=10.0

@@ -1,0 +1,30 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.tmp
+data/mpl/
+
+# Credentials
+.env
+.env.*
+!.env.example
+credentials.json
+*service-account*.json
+*.pem
+*.key
+
+# Large generated models and training records
+*.keras
+*.h5
+*.hdf5
+*.tfrecord
+*.tfrecords
+
+# Keep reported predictions and figures.
+# NIH ChestX-ray14 images and Data_Entry_2017.csv are obtained separately.
+
+# Local archives
+*.zip
